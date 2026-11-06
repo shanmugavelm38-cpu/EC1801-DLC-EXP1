@@ -27,7 +27,6 @@ output wire F
 ); 
 assign F = (~A) | B ;    // F = A' + B 
 endmodule
-
 ## TestBench Program
 module tb;
     reg A, B;
@@ -55,8 +54,7 @@ module tb;
         #10 $finish;
     end
 
-endmodule
-    
+endmodule    
 ## Truth Table
  
 <img width="795" height="311" alt="image" src="https://github.com/user-attachments/assets/dd4ba5b9-016b-4ae5-a693-f309c60c4c0e" />
